@@ -6,7 +6,6 @@ const country__details = document.querySelector(".country__details");
 const wrapper = document.querySelector(".wrapper");
 const darkMode = document.querySelector(".topbar__theme--switcher");
 const bodyW = document.body;
-
 const optionsList = document.querySelectorAll(".option");
 
 let search_term = "";
@@ -75,6 +74,8 @@ const showCountries = async () => {
         wrapper.classList.add("close");
         country__details.classList.remove("close");
 
+        // creating details page
+
         country__details.innerHTML = `
         <button class='detail-btn'>&larr; Back</button>
         <div class="detail__row d-flex">
@@ -102,9 +103,6 @@ const showCountries = async () => {
         )}</span></p>
         </div>
         </div>
-        <div class='col2row2'><p>Border Countries (alpha2code) : <span>${
-          country.borders
-        }</span></p></div>
         </div>
         </div>
         `;

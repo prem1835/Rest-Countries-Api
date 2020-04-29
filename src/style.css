@@ -34,7 +34,7 @@ h4 {
   padding-bottom: 0.4rem;
 }
 
-/* Top bar--start */
+/* Top bar */
 .topbar {
   display: flex;
   padding: 1.2em 6.5em;
@@ -72,7 +72,7 @@ h4 {
   padding: 4em 6.5em;
 }
 
-/* Search input--start */
+/* Search input */
 .search-input {
   border: none;
   outline: none;
@@ -98,7 +98,7 @@ h4 {
   position: relative;
 }
 
-/* filter by region--Start */
+/* filter by region */
 .select-box {
   display: flex;
   width: 14rem;
@@ -171,7 +171,7 @@ h4 {
   display: none;
 }
 
-/* Ajax data countries__list--start */
+/* Ajax data countries__list */
 
 .Ajax-data .countries-list {
   display: flex;
@@ -236,9 +236,6 @@ h4 {
   padding: 0 3rem;
   flex: 50%;
 }
-.col2row2 {
-  margin-top: 2.5rem;
-}
 .detail__heading {
   font-size: 2rem;
   padding: 1.5rem 0;
@@ -290,7 +287,7 @@ h4 {
     padding: 1rem 1rem 1rem 4rem;
     width: 100%;
   }
-  /*  */
+  /* country-detail */
   .country__details {
     padding: 0rem 2rem 4rem 2rem;
   }
