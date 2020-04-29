@@ -36,6 +36,7 @@ const showCountries = async () => {
 
       const country_flag = document.createElement("img");
       country_flag.src = country.flag;
+      country_flag.alt = "country flag";
       country_flag.classList.add("country_flag");
 
       const div = document.createElement("div");
